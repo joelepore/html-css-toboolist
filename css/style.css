@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f6f8fa;
+}
+
+h1 {
+  display: inline;
+}
+
+header {
+  background-color: white;
+  padding: 0.5rem 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+main {
+  background-color: white;
+}
+
+/* UTILS */
+.button {
+  padding: .4rem .5rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-primary {
+  background-color: #4ca9f5;
+  color: white;
+}
+
+.button-secondary {
+  background-color: white;
+  color: #e2e2e2;
+  border: 1px solid #e2e2e2;
+}
+
+.container {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 1rem 3rem;
+}
+
+.green {
+  border-color: green;
+  color: green;
+}
+
+.red {
+  border-color: red;
+  color: red;
+}
+
+.badge-blue {
+  color: white;
+  background-color: #4cb0ec;
+}
+
+.badge-purple {
+  color: white;
+  background-color: #9b78e0;
+}
+
+.badge-green {
+  color: white;
+  background-color: #62bea8;
+}
+
+.badge-orange {
+  color: white;
+  background-color: #efa338;
+}
+
+.badge-pink {
+  color: white;
+  background-color: #d3689f;
+}
+
+.badge-lightgreen {
+  color: white;
+  background-color: #afca2a;
+}
+
+/* SPECIFIC */
+#logo-container img {
+  vertical-align: middle;
+}
+
+#logo-container h1 {
+  vertical-align: middle;
+}
+
+.task-list {
+  margin-top: 2rem;
+}
+
+.task-list--title::before {
+  content: '\25BE';
+}
+
+.task-list--element {
+  padding: .5rem 0;
+}
+
+.task-list--element p {
+  display: inline;
+}
+
+.task-list--element--icon {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 100%;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: .9rem;
+}
+
+.task-list--element--badge {
+  font-size: .7rem;
+  padding: 0.3rem .7rem;
+  border-radius: 12px;
+}
